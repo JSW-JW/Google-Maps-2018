@@ -18,7 +18,7 @@ public class Chatroom implements Parcelable {
 
     }
 
-    protected Chatroom(Parcel in) {
+    public Chatroom(Parcel in) {
         title = in.readString();
         chatroom_id = in.readString();
     }
